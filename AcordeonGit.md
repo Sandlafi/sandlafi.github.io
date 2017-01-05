@@ -21,3 +21,13 @@
 ### .gitignore
 - Archivo que nos permite ignorar archivos o directorios los cuales no queremos que entren en el seguimiento de nuestro repositorio.
 - Contenido: nombres de archivos (se puede utilizar el wildcard *)
+
+### $ git checkout
+- Permite movernos entre commits o incluso ramas de nuestro repositorio. Como argumento se introduce el id del commit o parte de él.
+
+### $ git reset
+- Regresa al último estado guardado, borrando permanentemente cualquier cambio en el área de pruebas. Lleva la bandera --hard . Antes del commit (los add)
+
+### $ git clean
+- Borra permanentemente los archivo no seguidos. Lleva la bandera -f
+
