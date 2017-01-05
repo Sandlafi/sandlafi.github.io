@@ -25,9 +25,24 @@
 ### $ git checkout
 - Permite movernos entre commits o incluso ramas de nuestro repositorio. Como argumento se introduce el id del commit o parte de él.
 
+### $ git revert <id>
+- Revierte un estado, generando un nuevo commit.
+
 ### $ git reset
 - Regresa al último estado guardado, borrando permanentemente cualquier cambio en el área de pruebas. Lleva la bandera --hard . Antes del commit (los add)
 
 ### $ git clean
 - Borra permanentemente los archivo no seguidos. Lleva la bandera -f
+
+### Branching
+git branch [<rama>]
+- Lista las ramas existentes en el repo
+- Crea una nueva rama si le pasa un argumento (nombre de la rama)
+
+### Merging
+git Merge <rama_objetivo>
+- Une dos ramas
+
+Conflictos de merging
+- A veces si se está trabajando con 2 ramas al mismo tiempo, modificando un mismo archivo, se pueden generar conflictos, por lo que hay que corregirlos.
 
