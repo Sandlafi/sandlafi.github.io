@@ -18,3 +18,6 @@
 - --oneline muestra cada entrada en una sola línea
 - Escribiendo el nombre del archivo muestra los commits de ese archivo.
 
+### .gitignore
+- Archivo que nos permite ignorar archivos o directorios los cuales no queremos que entren en el seguimiento de nuestro repositorio.
+- Contenido: nombres de archivos (se puede utilizar el wildcard *)
