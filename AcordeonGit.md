@@ -77,6 +77,8 @@ Conflictos de merging
 - Ejemplo: $ git clone https://github.com/MonicaCastillo/monycastillo.fi.github.io RepColabMoni
 - Crea un directorio-repositorio llamado <nombre>
 
+### Fork
+Github ofrece una opción, la cual nos permite copiar el repositorio de otra persona
 
 
 
