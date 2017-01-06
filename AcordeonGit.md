@@ -46,3 +46,37 @@ git Merge <rama_objetivo>
 Conflictos de merging
 - A veces si se está trabajando con 2 ramas al mismo tiempo, modificando un mismo archivo, se pueden generar conflictos, por lo que hay que corregirlos.
 
+### Repositorio remoto
+-Es aquel que se encuentra alojado en un servidor externo.
+- Puede ser centralizado o distribuido
+
+### Github
+- Es un servicio de repositorio distribuido
+
+### $ git remote
+- Permite hacer diversas operaciones sobre repositorios remotos.
+- add: agrega un nuevo remoto
+- remove: elimita un remoto
+     $ git remote add <nombre> <url>
+     $ git remote remove <nombre>
+- Por lo general el nombre del repositorio es "origin"
+- Ejemplo: $ git remote add origin https://github.com/Sandlafi/sandlafi.github.io
+
+### $ git pull
+- Permite recibir el último estado registrado del repositorio remoto.
+- Recibe como argumentos el nombre del remoto y del branch al que queremos hacer pull
+- Ejemplo: $ git pull origin master
+
+### $ git push 
+- Permite mandar los acmbios registrados de nuestro repositorio local a un repositorio remoto
+- Recibe como argumentos el nombre del reoto y del branch al que queremos hacer push.
+- Ejemplo: $ git push origin master
+
+### git clone  <URL colaborador> <nombre>
+- Crea un clone del repositorio compartido con el colaborador. 
+- Ejemplo: $ git clone https://github.com/MonicaCastillo/monycastillo.fi.github.io RepColabMoni
+- Crea un directorio-repositorio llamado <nombre>
+
+
+
+
